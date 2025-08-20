@@ -15,13 +15,13 @@
 
 .profile-pic {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 15px;
 }
 
 .profile-name {
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 8px;
 }
 
@@ -31,7 +31,7 @@
   margin-bottom: 6px;
 }
 
-.profile-joined {
+.profile-mob {
   font-size: 20px;
   color: black;
 }
