@@ -12,9 +12,10 @@
 }
 .sidebar.open {
   width: 200px;
+  border: 2px solid black;
 }
 .toggle-btn {
-  background: white;
+  background:white;
   color: black;
   border: none;
   width: 100%;
@@ -42,12 +43,28 @@
   text-decoration: none;
 }
 .sidebar-link:hover {
-  background: black;
+  background:black;
   color: white;
   transform: scale(1.05);
   border-radius: 5px;
 }
 .icon {
   font-size: 18px;
-  color: inherit;
+  color:inherit;
+}
+.sidebar-miniprofile {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+}
+.sidebar-pic{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebar-name {
+  font-size: 14px;
+  font-weight: bold;
 }
