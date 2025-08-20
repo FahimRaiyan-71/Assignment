@@ -11,7 +11,7 @@
   border: 2px solid black;
 }
 .sidebar.open {
-  width: 200px;
+  width: 240px;
   border: 2px solid black;
 }
 .toggle-btn {
@@ -34,19 +34,26 @@
   margin-top: 20px;
 }
 .sidebar-link {
-  padding: 12px 15px;
+  padding: 12px;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items: left;
+  
   gap: 10px;
   color: black;
   text-decoration: none;
+  background-color: white;
+  border-radius: 999px;
+  margin: 5px 10px;
+  transition: all 0.2s ease;
+  width: 90%; 
+  box-sizing: border-box;
 }
 .sidebar-link:hover {
-  background:black;
-  color: white;
+  background: silver;
+  color: black;
   transform: scale(1.05);
-  border-radius: 5px;
+  border-radius: 999px;
 }
 .icon {
   font-size: 18px;
