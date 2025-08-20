@@ -1,0 +1,85 @@
+.articles-container {
+  padding: 40px;
+}
+.articles-container h2 {
+  margin-bottom: 20px;
+}
+.articles-table {
+  width: 100%;
+  border-collapse: separate; 
+  border-spacing: 0;
+  margin-bottom: 20px;
+  border: 2px solid silver; 
+  border-radius: 12px; 
+  overflow: hidden; 
+}
+.articles-table th {
+  background:white;
+  border-bottom: 1px solid silver;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+.articles-table td {
+  background: white;
+  padding: 12px;
+  border-bottom: 1px solid silver;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+.page-btn {
+  padding: 8px 14px;
+  background: white;
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1.05);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;  
+  border-radius: 0; 
+}
+.page-btn.active {
+  width: 40px;
+  height: 40px;
+  background: silver;      
+  color: black;           
+  border-radius: 50%;      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-btn:hover {
+   width: 40px;
+  height: 40px;
+  background: silver;
+  color: black;
+  transform: scale(1.05);
+  border-radius: 50%;      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-btn.arrow {
+  width: auto;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  padding: 8px 14px;
+  font-size: 18px;
+  background: transparent;
+  color: black;
+}
+.page-btn.arrow:hover {
+  background: white;
+  color: silver;
+  border-radius: 6px;
+}
+
+
