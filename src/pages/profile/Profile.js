@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import pic from "../../pic.jpg";
-import {FaEnvelope,FaPhone,FaBirthdayCake} from "react-icons/fa";
+import {FaEnvelope,FaPhone,FaBirthdayCake, FaCalendar} from "react-icons/fa";
 function Profile() {
   return (
     <div className="profile-container">
@@ -20,6 +20,10 @@ function Profile() {
         <p className="profile-email">
           <FaEnvelope className="profile-icon" />
           <strong> E-mail :</strong> fahim.cse.20220204098@aust.cse
+        </p>
+         <p className="profile-join">
+          <FaCalendar className="profile-icon" />
+          <strong> Joining date :</strong> January 10, 2023
         </p>
         <p className="profile-mob">
           <FaPhone className="profile-icon" />
