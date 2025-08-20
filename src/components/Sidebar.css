@@ -1,0 +1,53 @@
+.sidebar {
+  width: 60px;
+  transition: width 0.3s;
+  background-color: white;
+  height: 100vh;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  border: 2px solid black;
+}
+.sidebar.open {
+  width: 200px;
+}
+.toggle-btn {
+  background: white;
+  color: black;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.toggle-btn:hover {
+  background: black;
+  color: white;
+  transform: scale(1.05);
+}
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.sidebar-link {
+  padding: 12px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  text-decoration: none;
+}
+.sidebar-link:hover {
+  background: black;
+  color: white;
+  transform: scale(1.05);
+  border-radius: 5px;
+}
+.icon {
+  font-size: 18px;
+  color: inherit;
+}
