@@ -74,7 +74,6 @@ function Articles() {
           ))}
         </tbody>
       </table>
-      <div className="pagination">
   <div className="pagination">
   <button
     className="page-btn arrow"
@@ -100,8 +99,7 @@ function Articles() {
     &gt;
   </button>
   </div>
-  </div>
 </div>
-  );
+  ); 
 }
 export default Articles;
